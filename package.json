@@ -1,0 +1,14 @@
+{
+  "name": "signoz-demo",
+  "version": "1.0.0",
+  "type": "module",
+  "dependencies": {
+    "express": "^4.19.2",
+    "@opentelemetry/api": "^1.8.0",
+    "@opentelemetry/auto-instrumentations-node": "^0.43.0",
+    "@opentelemetry/resources": "^1.23.0",
+    "@opentelemetry/sdk-logs": "^0.51.0",
+    "@opentelemetry/exporter-logs-otlp-http": "^0.51.0",
+    "@opentelemetry/semantic-conventions": "^1.23.0"
+  }
+}
